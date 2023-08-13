@@ -12,67 +12,16 @@ z-index: 99999;}
 nav ul li { list-style: none; display: inline-block;
 padding: 10px 20px; } 
 nav ul li a { color: #1d1d24; position: relative; padding:
-5px 5px; } 
+5px 5px;
+font-size: x-large; } 
  nav ul li a:hover{
     color: #f554b8;
  }
-/*a:hover,nav ul li a:hover { color: #cb4792; }
-nav ul li a:after { content: "";
-position: absolute;
- left: 0;
-  width: 0; 
-  height: 3px;
-   background: #cb4792;
 
-transition: 0.3s;
- bottom: 0; } 
-nav ul li a:hover:after { width: 100%; } */
 
  .btn:hover { background: transparent;
 border-color: #fd4766; color: #fd4766; } 
-/*.content { position: absolute; top:
-25%; left: 8%;bottom:10%;padding:10px;background-image: url(https://th.bing.com/th/id/OIP.4-w8DPP_twps9HHUqtoE_wHaEo?w=298&h=186&c=7&r=0&o=5&dpr=1.5&pid=1.7); } 
-.content .title { color: #0a0a0a; font-size: 15px;
-text-transform: uppercase; letter-spacing: 4px; display: inline-block;
-margin-bottom: 20px; background: linear-gradient( 120deg, #f4a64e 20.69%,
-#bad426 50.19%, #f4a64e 79.69% ); 
- } 
- .content h1 { color: #1f1f25; font-size:
-75px; font-weight: 900; line-height: 90px; text-transform: inherit; width: 70%;
-} 
-.content h1 span { color: #fd6b47; } 
 
-img{
-    min-width: auto;
-    min-height: 200%;
-   
-}
-.typewriter {
-    font-family: Arial, sans-serif;
-    font-size: 18px;
-    line-height: 1.5;
-  }
-  
-  .line {
-    overflow: hidden; 
-    white-space: nowrap; 
-    border-right: 0.15em solid #000; 
-    width: 0;  
-    animation: typing 4s steps(40) infinite, blink-caret 0.75s step-end infinite;
-  }
-  
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-  @keyframes blink-caret {
-    from, to {
-      border-color: transparent; 
-    }
-    50% {
-      border-color: #f3cece; 
-    }
-  }*/
   
   section{
     height:100vh;
@@ -106,17 +55,20 @@ img{
   .content h1 span { color: #d42691; }
  
   
-
-.typewriter {
+.typewriter{
+    margin-top:30%;
+}
+.typewriter .writting {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
     border-right: .15em solid orange; /* The typwriter cursor */
     white-space: nowrap; /* Keeps the content on a single line */
     margin: 30 auto; /* Gives that scrolling effect as the typing happens */
+    
     letter-spacing: .15em; /* Adjust as needed */
     position: absolute;
     bottom: 8px;
     left: 16px;
-    font-size: 18px;
+    font-size:x-large ;
     padding-bottom: 10%;
     animation: 
       typing 3.5s steps(40, end),
@@ -150,51 +102,7 @@ img{
                 font-size: 18px;
             }
  
-  /*.content { position: absolute; top:
-    25%; left: 8%;bottom:10%;padding:10px;background-image: url(https://th.bing.com/th/id/OIP.4-w8DPP_twps9HHUqtoE_wHaEo?w=298&h=186&c=7&r=0&o=5&dpr=1.5&pid=1.7); } 
-    .content .title { color: #0a0a0a; font-size: 15px;
-    text-transform: uppercase; letter-spacing: 4px; display: inline-block;
-    margin-bottom: 20px; background: linear-gradient( 120deg, #f4a64e 20.69%,
-    #bad426 50.19%, #f4a64e 79.69% ); 
-     } 
-     .content h1 { color: #1f1f25; font-size:
-    75px; font-weight: 900; line-height: 90px; text-transform: inherit; width: 70%;
-    } 
-    .content h1 span { color: #fd6b47; } 
-    /*.content p { width: 55%; color: #202020;
-    margin-top: 25px; margin-bottom: 30px; }*/
-    /*
-    img{
-        min-width: auto;
-        min-height: 200%;
-       
-    }
-    .typewriter {
-        font-family: Arial, sans-serif;
-        font-size: 18px;
-        line-height: 1.5;
-      }
-      
-      .line {
-        overflow: hidden; 
-        white-space: nowrap; 
-        border-right: 0.15em solid #000; 
-        width: 0;  
-        animation: typing 4s steps(40) infinite, blink-caret 0.75s step-end infinite;
-      }
-      
-      @keyframes typing {
-        from { width: 0 }
-        to { width: 100% }
-      }
-      @keyframes blink-caret {
-        from, to {
-          border-color: transparent; 
-        }
-        50% {
-          border-color: #f3cece; 
-        }
-      }*/
+  
       .work{
         background-image: url(https://th.bing.com/th/id/OIP.XokB2eCcBUAcEdMnbHaDLgHaLH?pid=ImgDet&rs=1);
         background-size: 3010px;
@@ -210,13 +118,14 @@ img{
       }
       .contact-info{
         width: 450px;
-    background-color: #ffffff;
-    padding: 50px 40px;
-    margin-bottom: 90%; 
+    background-color: #675161;
+    padding: 100px 20px;
+    padding-right: 40px;
+    margin-bottom: 80%; 
     margin-right: 150%;
     position: relative;
     transform: translate(-50%,-50%);
-    left: 50%;
+    left: 70%;
     top: 50%;
     box-shadow: 0 20px 25px rgba(0,0,0,0.25);
     border-radius: 8px;
@@ -224,14 +133,14 @@ img{
     justify-content: space-between;
       }
 .color{
-    background-image: url(https://th.bing.com/th/id/OIP.FFBHDt5u4QLjt_SglSIsxAHaEo?w=245&h=180&c=7&r=0&o=5&dpr=1.5&pid=1.7);
-    background-color:antiquewhite;
+   
+    background-color:rgb(104, 73, 93);
     background-position: 80px;
     background-size: 2400px;
    
 }
 img{
-    margin-left: 50%;
+    margin-left: 20%;
     margin-bottom: 0%;
     margin-right: 10%;
     margin-top: 20%;
@@ -242,8 +151,12 @@ img{
 .content .btn{
     margin-top: 60%;
     background:
-#857e7c; border: 2px solid #8d8a8b; 
-border-radius: 80%;
+#857e7c; border: 8px solid #8d8a8b; 
+border-radius: 100%;
 padding: 19px;
+margin-right: 70%;
+}
+.content .title{
+    font-size: xx-large;
 }
 
